@@ -1,0 +1,99 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+
+/*Change font, background color, foreground*/
+
+body{
+	font-family:'Times New Roman', sans-serif;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+
+/*Change text size, center, padding*/
+
+h1{
+	font-size: 64px; 
+	padding: 10px;
+	text-align: center;
+
+}
+
+/*Change text size, shadow*/
+h2{
+	font-size: 32px; 
+	text-shadow: 4px 4px 2px #808080;
+}
+
+/*Change font size and padding*/
+p{
+	font-size: 24px;
+	padding-top: 15px;
+}
+
+/*Style the images*/
+img{
+    width:550px;
+	height:auto;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div{
+	padding: 25px;
+	min-height: 150px;
+	height:auto;
+}
+
+#red{
+	background-color: #FF0000;
+	text-align: right;
+}
+
+#blue{
+	background-color: #0000FF;
+	text-align: left;
+}
+
+#yellow{
+	background-color: #FFFF00;
+	text-align: right;
+}
+
+#yellow h2{
+	color: #000000;
+	text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#yellow p{
+	color: #000000;
+}
+
+#green{
+	background-color: #008000;
+	text-align: left;
+}
+
+footer p{
+	text-align: center;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	background-color: #ECFF4D;
+	padding:10px;
+	width:25%;
+	border:1px solid black;
+	display: inline-block;
+	width: 20%;
+}
+
+
+
+
